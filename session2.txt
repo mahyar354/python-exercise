@@ -1,0 +1,6 @@
+i=0    
+ for index, char in enumerate("MAZUMS IT"):
+  for number in range(2): 
+        if index % 2 != 0:
+               i+=1
+               print(i, "-" , char)
