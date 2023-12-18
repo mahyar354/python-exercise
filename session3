@@ -1,0 +1,12 @@
+def print_stars(*params):
+    counter = 0
+    repeater = 0
+    char = 0
+    for p in params:
+        if (counter % 2 == 0):
+         char = p
+        else:
+         repeater = p
+         print(f"{char}" * repeater)
+        counter +=1 
+print_stars("*", 3, "@", 4)
